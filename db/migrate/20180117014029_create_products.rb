@@ -4,7 +4,7 @@ class CreateProducts < ActiveRecord::Migration[5.1]
       t.string :name
       t.string :price
       t.string :ingredients
-      t.string :heat-level
+      t.string :heat_level
       t.string :description
       t.string :image_url
 
